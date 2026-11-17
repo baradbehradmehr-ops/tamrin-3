@@ -20,6 +20,9 @@ catch (OverflowException)
 {
     Console.WriteLine("addy kh vard krdy kheili bzrg hst kvchk tr vard kn");
 }
-;
+finally
+{
+    Console.WriteLine("\n✅");
+}
 // Console.Write(@$"omacos add shma :
 //{number%10}{number%100/10}{number%1000/100}{number%10000/1000}");
